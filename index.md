@@ -1,8 +1,9 @@
 ---
 ---
 
-Hello World
+Public repositories
 
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }}) - {{ repository.description }}
+    [Issues]({{ repository.issues_url }}) [Tag]({{ repository.tag_url }})
 {% endfor %}

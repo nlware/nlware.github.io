@@ -9,4 +9,7 @@ title: States of public repositories
   [![Build Status](https://img.shields.io/travis/{{ repository.full_name }}.svg)](https://travis-ci.org/{{ repository.full_name }})
   [![Issues](https://img.shields.io/github/issues/{{ repository.full_name }}.svg)]({{ repository.issues_url }})
   [![Tag](https://img.shields.io/github/tag/{{ repository.full_name }}.svg)]({{ repository.tags_url }})
+  [![Pull requests](https://img.shields.io/github/pulls/{{ repository.full_name }}.svg)]({{ repository.pulls_url }})
+  [![Stars](https://img.shields.io/github/stars/{{ repository.full_name }}.svg)]({{ repository.stargazers_url }})
+  [![Forks](https://img.shields.io/github/forks/{{ repository.full_name }}.svg)]({{ repository.forks_url }})
 {% endfor %}
